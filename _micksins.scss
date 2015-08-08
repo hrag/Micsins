@@ -73,8 +73,9 @@ More info at: http://github.com/hrag/micksins
 	-webkit-opacity: $opacity;
 	opacity: $opacity;
 	$opperc: $opacity * 100;
-	-ms-filter: ~"progid:DXImageTransform.Microsoft.Alpha(opacity=${opperc})";
-	filter: ~"alpha(opacity=${opperc})";
+	-ms-filter: unquote("progid:DXImageTransform.Microsoft.Alpha(opacity=${opperc})");
+	filter: unquote("alpha(opacity=${opperc})");
+
 }
 
 
