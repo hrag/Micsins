@@ -1,9 +1,9 @@
-# Micksins
+# Micsins
 
-Micksins is a SCSS partial of mixins to simplify basic visual tasks. To use, just simply import it.
+Micsins is a SCSS partial of mixins to simplify basic visual tasks. To use, just simply import it.
 
 ```scss 
-@import 'micksins';
+@import 'micsins';
 ```
 
-Micksins is modeled after the super helpful [LESS Elements](http://lesselements.com).
+Micsins is modeled after the lovely [LESS Elements](http://lesselements.com).
