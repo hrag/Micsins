@@ -52,7 +52,7 @@ More info at: http://github.com/hrag/micsins
 @mixin roundeds($topleft, $topright, $bottomright, $bottomleft) {
   	border-top-left-radius: $topleft;
   	border-top-right-radius: $topright;
-	 border-bottom-left-radius: $bottomleft;
+	border-bottom-left-radius: $bottomleft;
   	border-bottom-right-radius: $bottomright;
   	-webkit-border-top-left-radius: $topleft;
   	-webkit-border-top-right-radius: $topright;
