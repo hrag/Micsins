@@ -49,6 +49,20 @@ More info at: http://github.com/hrag/micsins
 	border-radius: $radius;
 }
 
+@mixin roundeds($topleft, $topright, $bottomright, $bottomleft) {
+  	border-top-left-radius: $topleft;
+  	border-top-right-radius: $topright;
+	 border-bottom-left-radius: $bottomleft;
+  	border-bottom-right-radius: $bottomright;
+  	-webkit-border-top-left-radius: $topleft;
+  	-webkit-border-top-right-radius: $topright;
+  	-webkit-border-bottom-left-radius: $bottomleft;
+  	-webkit-border-bottom-right-radius: $bottomright;
+  	-moz-border-top-left-radius: $topleft;
+  	-moz-border-top-right-radius: $topright;
+  	-moz-border-bottom-left-radius: $bottomleft;
+	-moz-border-bottom-right-radius: $bottomright;
+}
 
 @mixin border-radius($topright: 0, $bottomright: 0, $bottomleft: 0, $topleft: 0) {
 	-webkit-border-top-right-radius: $topright;
