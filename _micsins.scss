@@ -102,7 +102,6 @@ More info at: http://github.com/hrag/micsins
 
 
 @mixin scale($ratio:1.5) {
-	@include transform(scale($ratio));
 	-ms-transform:scale($ratio); /* IE 9 */
 	-moz-transform:scale($ratio); /* Firefox */
 	-webkit-transform:scale($ratio); /* Safari and Chrome */
