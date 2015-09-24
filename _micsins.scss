@@ -81,15 +81,14 @@ More info at: http://github.com/hrag/micsins
 }
 
 
-@mixin opacity($opacity: 0.5) {
+@mixin opacity($opacity: 0) {
 	-moz-opacity: $opacity;
 	-khtml-opacity: $opacity;
 	-webkit-opacity: $opacity;
 	opacity: $opacity;
 	$opperc: $opacity * 100;
-	-ms-filter: unquote("progid:DXImageTransform.Microsoft.Alpha(opacity=${opperc})");
-	filter: unquote("alpha(opacity=${opperc})");
-
+	-ms-filter: unquote("progid:DXImageTransform.Microsoft.Alpha(opacity=#{$opperc})");
+	filter: unquote("alpha(opacity=#{$opperc})");
 }
 
 
